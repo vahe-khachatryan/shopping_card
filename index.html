@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping Card</title>
+    <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    
+    <div id="site">
+    <header id="header">
+      <h1>Pizza Co.</h1>
+    </header>
+  <div id="content">
+  <div id="products">
+  
+    <ul>
+  <li>
+  <div id="product-image">
+  <img src="https://static-eu.insales.ru/images/products/1/4416/247435584/large___%D0%94%D0%BE%D0%B4%D0%BE_%D0%9F%D0%B8%D1%86%D1%86%D0%B0_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0___%D0%94%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0_%D0%BF%D0%B8%D1%86%D1%86%D1%8B_%D0%B7%D0%B0_60_%D0%BC%D0%B8%D0%BD%D1%83%D1%82_%D0%B8%D0%BB%D0%B8_%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE._%D0%97%D0%B2%D0%BE%D0%BD%D0%BE%D0%BA_%D0%BF%D0%BE_%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D1%83_8_800_302-00-.png" alt = "Pepperoni">
+  </div>
+  <div id="product-description" data-name="Pepperoni" data-price="15">
+  <h3 id="product-name">Pepperoni</h3>
+  <p id="product-price">$15</p>
+  <div>
+  <button onclick="onClick('Pepperoni', 15)" id="btn">Add to card</button>
+  </div>
+  </div>
+  </li>
+
+  <li>
+  <div id="product-image">
+  <img src="https://static-eu.insales.ru/images/products/1/2217/219580585/large_17.jpg" alt="Mexican" />
+  </div>
+  <div id="product-description" data-name="Mexican" data-price="30">
+  <h3 id="product-name">Mexican</h3>
+  <p id="product-price">$30</p>
+  <div>
+  <button onclick="onClick('Mexican', 30)" id="btn">Add to card</button>
+  </div>
+  </div>
+  </li>
+
+  <li>
+  <div id="product-image">
+  <img src="https://static-eu.insales.ru/images/products/1/2529/219580897/large_11.jpg" alt="Margarita" />
+  </div>
+  <div id="product-description" data-name="Margarita" data-price="30">
+  <h3 id="product-name">Margarita</h3>
+  <p id="product-price">$30</p>
+  <div>
+  <button onclick="onClick('Margarita', 30)" id="btn">Add to card</button>
+  </div>
+  </div>
+  </li>
+
+          <li>
+  <div id="product-image">
+  <img src="https://static-eu.insales.ru/images/products/1/6292/294451348/large_%D4%B1%D5%BD%D5%B8%D6%80%D5%BF%D5%AB1.jpg" alt="Assorti" />
+  </div>
+  <div id="product-description" data-name="Assorti" data-price="25">
+  <h3 id="product-name">Assorti</h3>
+  <p id="product-price">$25</p>
+  <div>
+  <button onclick="onClick('Assorti', 25)" id="btn">Add to card</button>
+  </div>
+  </div>
+  </li>
+
+          <li>
+  <div id="product-image">
+  <img src="https://static-eu.insales.ru/images/products/1/7969/355966753/large_img_1397.jpg" alt="BBQ" />
+  </div>
+  <div id="product-description" data-name="BBQ" data-price="30">
+  <h3 id="product-name">BBQ</h3>
+  <p id="product-price">$30</p>
+  <div>
+  <button onclick="onClick('BBQ', 30)" id="btn">Add to card</button>
+  </div>
+  </div>
+  </li>
+
+          <li>
+  <div id="product-image">
+  <img src="https://static-eu.insales.ru/images/products/1/411/250519963/large_71762117_505242246966001_5722880124752232448_n.jpg" alt="Spain" />
+  </div>
+  <div id="product-description" data-name="Spain" data-price="30">
+  <h3 id="product-name">Spain</h3>
+  <p id="product-price">$30</p>
+  <div>
+  <button onclick="onClick('Spain', 30)" id="btn">Add to card</button>
+  </div>
+  </div>
+  </li>
+  </ul>
+  </div>
+  </div>
+  </div>
+  <div id="checkout">
+    <hr>
+    <h3>Your Card: </h3> <button onclick="checkout()" id="btn">Checkout</button>
+    <div id="items">
+      <span id="display"></span>
+    </div>
+    <div id="total">
+      <span id="total"></span>
+    </div>
+  </div>
+  </body>
+  <footer id="site-info">
+  Copyright &copy; Vahe Khachatryan
+  </footer>
+  </html>
